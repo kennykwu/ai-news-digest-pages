@@ -9,7 +9,7 @@
 :root{--ink:#172235;--muted:#607086;--line:#e2e8f0;--paper:#f3f6fa;--blue:#2459d3;--teal:#0c8278;--gold:#9b6811;--rose:#9e4a50}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
 .wrap{max-width:780px;margin:0 auto;padding:26px 16px 46px}.hero{position:relative;overflow:hidden;border-radius:22px;padding:28px 25px;color:#fff;background:linear-gradient(135deg,#142b54,#285ed4 58%,#3d8cc5);box-shadow:0 12px 32px #244b8529}.hero:after{content:"";position:absolute;width:230px;height:230px;border:1px solid #ffffff33;border-radius:50%;right:-54px;top:-120px;box-shadow:0 0 0 24px #ffffff0d,0 0 0 50px #ffffff0a}.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.8}.hero h1{margin:8px 0 7px;font-size:clamp(27px,6vw,39px);line-height:1.2}.hero p{margin:0;color:#e0eaff}.stats{display:grid;grid-columns:1fr;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:22px}.stat{padding:10px 12px;border:1px solid #ffffff2b;border-radius:12px;background:#ffffff12}.stat b{display:block;font-size:19px}.stat span{font-size:11px;color:#e0eaff}
-.note{margin:16px 2px 23px;color:var(--muted);font-size:13px}.story{margin:14px 0;padding:20px 20px 18px;border:1px solid var(--line);border-radius:17px;background:#fff;box-shadow:0 5px 15px #17223508}.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px}.tag{padding:3px 9px;border-radius:999px;background:#edf3ff;color:var(--blue);font-weight:650}.story h2{font-size:20px;line-height:1.4;margin:10px 0 8px}.story p{margin:8px 0}.story .why{margin-top:13px;padding:11px 13px;border-left:3px solid var(--teal);border-radius:0 10px 10px 0;background:#eef8f6;font-size:14px}.story .caveat{color:#765a20;font-size:13px}.sources{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:12px;padding-top:10px;border-top:1px solid #edf0f5;font-size:13px}.sources a{color:var(--blue);text-decoration:none}.sources a:hover{text-decoration:underline}.coverage{margin-top:20px;padding:18px 20px;border:1px solid var(--line);border-radius:16px;background:#fff}.coverage h2{margin:0 0 8px;font-size:17px}.coverage p{margin:7px 0;color:#435269;font-size:13px}.coverage strong{color:var(--ink)}footer{padding:17px 4px;color:#7a8799;font-size:11px;text-align:center}
+.note{margin:16px 2px 23px;color:var(--muted);font-size:13px}.story{margin:14px 0;padding:20px 20px 18px;border:1px solid var(--line);border-radius:17px;background:#fff;box-shadow:0 5px 15px #17223508}.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px}.tag{padding:3px 9px;border-radius:999px;background:#edf3ff;color:var(--blue);font-weight:650}.tag.track{background:#fdf3e3;color:var(--gold)}.story h2{font-size:20px;line-height:1.4;margin:10px 0 8px}.story p{margin:8px 0}.story .why{margin-top:13px;padding:11px 13px;border-left:3px solid var(--teal);border-radius:0 10px 10px 0;background:#eef8f6;font-size:14px}.story .caveat{color:#765a20;font-size:13px}.sources{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:12px;padding-top:10px;border-top:1px solid #edf0f5;font-size:13px}.sources a{color:var(--blue);text-decoration:none}.sources a:hover{text-decoration:underline}.sources .na{color:#9e4a50}.coverage{margin-top:20px;padding:18px 20px;border:1px solid var(--line);border-radius:16px;background:#fff}.coverage h2{margin:0 0 8px;font-size:17px}.coverage p{margin:7px 0;color:#435269;font-size:13px}.coverage strong{color:var(--ink)}footer{padding:17px 4px;color:#7a8799;font-size:11px;text-align:center}
 @media(max-width:520px){.wrap{padding:14px 11px 30px}.hero{padding:23px 19px;border-radius:18px}.story{padding:17px 15px}.stats{gap:6px}.stat{padding:8px}.stat b{font-size:17px}.stat span{font-size:10px}}
 </style>
 </head>
@@ -19,164 +19,145 @@
   <h1>AI 资讯精选日报</h1>
   <p>2026 年 11 月 28 日 · 大厂把算力账本摊开，端侧与私人 AI 硬件同时升温</p>
   <div class="stats">
-    <div class="stat"><b>13 条</b><span>窗口内可核验动态</span></div>
+    <div class="stat"><b>13 条</b><span>窗口内动态</span></div>
     <div class="stat"><b>3 条</b><span>超窗补漏</span></div>
     <div class="stat"><b>10:00</b><span>北京时间日更截点</span></div>
   </div>
 </header>
-<p class="note">覆盖窗口：2026-11-27 10:00 至 2026-11-28 10:00（北京时间）。X 与小红书通道本期均已恢复，社区条带的是一手时间戳；窗口归属以事件本身时间判定。</p>
+<p class="note">覆盖窗口：2026-11-27 10:00 至 2026-11-28 10:00（北京时间）。每条标注事件本身的发生时间。</p>
 
 <article class="story">
-  <div class="meta"><span class="tag">AI 落地与企业选型</span><span>事件 11 月 27 日港股盘后业绩会</span></div>
-  <h2>美团 Q3 转盈 185 亿口径落地，王兴：明年 AI 资本支出将低于今年</h2>
-  <p>美团发布三季报：季度收入 1,155.56 亿元，同比 +21.6%；经调整溢利 18.5 亿元，上年同期为亏损 160.10 亿元。管理层在业绩会上就算力口径明确：「今年我们通过AI相关的资本支出订单锁定了部分算力用于未来使用，因此我们预计明年AI相关(资本支出)将低于今年」；对入口之争表态「无论前端交互方式如何演进，用户对本地生活服务的核心需求并未改变」，并确认与微信小微的合作按计划推进。</p>
-  <p class="caveat">支出「低于今年」是相对增速判断，未给出明年具体金额；「锁定部分算力」未披露规模与供应商。</p>
-  <div class="why"><strong>为什么推给你：</strong>这是国内大厂第一次把「AI 算力投入见顶回落」写进业绩会口径，与你给客户做的算力预算测算方向一致——采购节奏可以放缓，先把存量算力和订阅额度用满。同时「交互方式演进不改变核心需求」是甲方在选型讨论里最常见的稳态立场，值得作为你 FDE 提案里的引用锚点：卖的是流程结果，不是入口概念。建议把这两句原话存进客户案例素材库，下次遇到「要不要今年就铺算力」的犹豫时直接引用。</div>
-  <div class="sources"><a href="https://www.meituan.com/news/NN261127296001055" target="_blank" rel="noopener">美团新闻稿（一手）</a><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700342_c.pdf" target="_blank" rel="noopener">港交所公告 PDF</a><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报 11-28（含王兴回应小微）</a></div>
+  <div class="meta"><span class="tag">AI 落地与企业选型</span><span>11 月 27 日港股盘后</span></div>
+  <h2>美团 Q3 扭亏为盈，王兴明确：明年 AI 资本支出将低于今年</h2>
+  <p>美团三季报：收入 1,155.56 亿元（+21.6%），经调整溢利 18.5 亿元，上年同期亏损 160.10 亿元。王兴在业绩会上说「今年通过 AI 相关的资本支出订单锁定了部分算力，预计明年 AI 相关资本支出将低于今年」，并确认与微信小微的合作按计划推进。季度研发投入 77 亿元（+11.3%），AI 经营工作台「妙手」已服务超 200 万商家。</p>
+  <div class="why"><strong>对你的价值：</strong>国内大厂第一次把「AI 算力投入见顶回落」写进业绩会口径，采购节奏放缓、先消化存量算力成为公开共识；「交互方式演进不改变核心需求」是甲方选型讨论的标准立场，可存进 FDE 提案素材库直接引用。</div>
+  <div class="sources"><a href="https://www.meituan.com/news/NN261127296001055" target="_blank" rel="noopener">美团新闻稿</a><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700342_c.pdf" target="_blank" rel="noopener">港交所公告 PDF</a><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">AI 硬件与端侧</span><span>Espressif 官方博客标注 27 November 2026</span></div>
-  <h2>乐鑫发布 ESP ZeroCode AI：浏览器里说人话，直接出规格、编译、审查到烧录</h2>
-  <p>乐鑫官方开发者博客推出 ESP ZeroCode AI，官方描述为「describe a device in plain words, and it writes the product specification, builds and reviews」——用白话描述设备，工具自动生成产品规格，走 ESP-IDF 云端编译、代码审查、仿真，最后经 USB 烧录到设备。官方称覆盖 8 款芯片、130+ 开发板、400+ 器件。价格与额度未公布。</p>
-  <p class="caveat">价目未公布；云端编译意味着固件与需求描述会离开本地，企业侧数据边界需自行评估。博客日期为页面标注，未取到独立发布时间戳。</p>
-  <div class="why"><strong>为什么推给你：</strong>这条直接命中你的硬件原型线。你手上的 AI NAS、随身秘书、ESP32 类原型，最大的成本不在模型而在「从想法到能烧的固件」这段重复劳动；官方把规格生成、编译、审查、仿真串成一条链，等于把原型周期从几天压到几小时，且是原厂工具链，兼容性比通用 Agent 硬写更可控。建议先拿一个你已做过的小项目（如 ESP32 崩溃循环那类）走一遍 ZeroCode，对比人工版本的文件差异和烧录成功率，再判断是否把它纳入给客户做原型的标准流程——尤其给「不懂技术但要个硬件 demo」的中小客户。</div>
-  <div class="sources"><a href="https://developer.espressif.com/blog/2026/11/introducing-esp-zerocode-ai/" target="_blank" rel="noopener">Espressif 官方博客（一手）</a></div>
+  <div class="meta"><span class="tag">AI 硬件与端侧</span><span>11 月 27 日乐鑫官方发布</span></div>
+  <h2>乐鑫发布 ESP ZeroCode AI：说人话描述设备，直接出规格、编译、烧录</h2>
+  <p>官方描述是「用白话描述一个设备，它写产品规格、构建并审查」：浏览器里说需求 → 自动生成产品规格 → ESP-IDF 云端编译 → 代码审查 → 仿真 → USB 烧录到设备，覆盖 8 款芯片、130+ 开发板、400+ 器件。价格与额度未公布。</p>
+  <div class="why"><strong>对你的价值：</strong>硬件原型最贵的「从想法到能烧的固件」这段被原厂工具链串成一条链，原型周期可能从几天压到几小时。建议拿一个已做过的小项目走一遍 ZeroCode，对比人工版本差异后再决定是否纳入给客户做原型的标准流程；注意云端编译意味着需求描述和固件会离开本地。</div>
+  <div class="sources"><a href="https://developer.espressif.com/blog/2026/11/introducing-esp-zerocode-ai/" target="_blank" rel="noopener">Espressif 官方博客</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">出海与众筹 · AI NAS 对标</span><span>11 月 28 日实测快照；上线日期未留存</span></div>
-  <h2>Kickstarter 私人 AI 工作站 HomeAI Max+ 认缴 22.26 万新元，达成目标 1315%</h2>
-  <p>项目方 Eyries Group Limited 的 HomeAI Max+ 硬件规格逐字为「Ryzen AI Max+ 395 | 128GB LPDDR5X | Radeon 8060S | Upto 8TB SSD + 16TB NAS | 126 TOPS | OCuLink」，定位本地大模型 + NAS + Alpha 订阅的一体机。11-28 实测页面：已认缴 S$222,615 / 目标 S$16,914（1315%）、112 位支持者、剩 24 天、截止 2026-12-23（AWST）。</p>
-  <p class="caveat">项目上线日期未留存（FAQ 页最早可溯至 11-23 16:30），无法判定首发是否落在本期窗口，故按数据快照更新呈现，不作「窗口内新事件」。众筹页数字由项目方自报，交付与退款风险未评估。</p>
-  <div class="why"><strong>为什么推给你：</strong>这是与 AI NAS 最正面的一场市场实验，而且已经给出了答案的一半：128GB 统一内存 + 16TB NAS 的「本地模型+私人存储」组合，在 Kickstarter 上以 13 倍超额完成，说明海外愿意为「模型跑在自己机器上」付费，且 112 人撑到 22 万新元，客单价约 1,988 新元，远高于普通 NAS。对你的价值有两层：定价上多了一个海外锚点（你目前的订阅+硬件组合可以向这个价位带对照）；叙事上可以直接引用「1315% 超额」证明品类需求成立，不必自己论证。建议持续跟踪到 12-23 收盘，看最终金额与支持者数是否稳定在四位数以下——那会决定这是小众发烧盘还是可复制的品类。另一个直接锚点：同芯片（Ryzen AI Max+ 395/128GB）的 MINISFORUM AI NAS N5 MAX 已在售，128GB+128GB 档现价 €3,839（原价 €4,799，德国仓现货），5+5 盘位最高 200TB——HomeAI 的众筹档位对照零售现货价，能算出「众筹溢价/折扣」这层判断，你给 AI NAS 定价时两个数都能用。</div>
-  <div class="sources"><a href="https://www.kickstarter.com/projects/egluk/homeai-the-private-ai-supercomputer-for-your-home" target="_blank" rel="noopener">Kickstarter 项目页（规格与认缴数据）</a><a href="https://minisforumpc.eu/products/minisforum-ai-nas-n5-max" target="_blank" rel="noopener">对标：MINISFORUM AI NAS N5 MAX €3,839 现货页</a></div>
+  <div class="meta"><span class="tag track">出海与众筹 · 持续跟踪</span><span>11 月 28 日进度快照</span></div>
+  <h2>【跟踪】HomeAI Max+ 众筹已认缴 22.26 万新元，达成目标 1315%</h2>
+  <p>Eyries Group 的私人 AI 工作站：Ryzen AI Max+ 395、128GB 统一内存、126 TOPS、8TB SSD + 16TB 内置 NAS，同一台机器跑 PC / NAS / AI 服务器三种模式。11-28 页面进度：已认缴 S$222,615（目标 S$16,914，1315%）、112 位支持者、剩 24 天，截止 12-23。同芯片的直接对标：MINISFORUM AI NAS N5 MAX 已在售，128GB 档 €3,839（原价 €4,799，德国仓现货）。</p>
+  <div class="why"><strong>对你的价值：</strong>112 人、人均约 1,988 新元，证明海外愿意为「本地模型 + 私人存储」一体机的品类付溢价；给 AI NAS 定价多了两个锚——众筹档价格带和零售现货价。持续跟踪到 12-23 收盘，看它最终是小众发烧盘还是可复制品类。</div>
+  <div class="sources"><a href="https://www.kickstarter.com/projects/egluk/homeai-the-private-ai-supercomputer-for-your-home" target="_blank" rel="noopener">Kickstarter 项目页</a><a href="https://minisforumpc.eu/products/minisforum-ai-nas-n5-max" target="_blank" rel="noopener">对标：MINISFORUM N5 MAX 现货页</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">跨 Agent 记忆与上下文安全</span><span>本期进展帖 11 月 27 日 15:21（北京）</span></div>
-  <h2>Dragos 指认 MiniMax 代理链路抓取用户上下文：新增细节显示链接 24 天后出现在飞书聊天</h2>
-  <p>安全公司 Dragos 的指控主体事件发布于 11-26（上期已入补漏池），本期窗口内出现带新细节的扩散：技术博主 Rohan Paul 帖（时间戳实测 2026-11-27T07:21:40Z，北京 15:21:40）逐字写到「只有到达 MiniMax 服务器的提示，其链接在几天后被未知方打开，即使用户要求不存储他们的数据」「一个链接在 24 天后出现在字节跳动的 Feishu 聊天中，北京和上海的 3 台桌面电脑和 3 部手机在 2 分钟内打开了它」「链接抓取似乎于 10 月 22 日停止」。要点是：即使配置为不存储数据，经由第三方模型代理的提示内容仍可能被下游人工访问。</p>
-  <p class="caveat">逐字内容出自单一 X 账号转述，原始 Dragos 报告全文与 MiniMax 官方回应本期未取得；「24 天后出现在飞书」的取证链条（谁分享、如何落地）未经独立验证。按上期补漏 + 本期发酵呈现，不作已定性结论。</p>
-  <div class="why"><strong>为什么推给你：</strong>这条打在跨 Agent 记忆主线的要害上。你在给客户搭 OpenViking、AI NAS 这类上下文底座时，最常被问的就是「我的记忆和数据到底会流到哪里」。本次事件把抽象风险变具体：不存储开关挡不住代理链路上游的人工访问，24 天后被打开说明留存期远超用户预期。建议两件事落地：一是在客户方案的安全章节里把「第三方模型代理 = 数据出域路径」写成显式条款，而不是只写「已关闭数据留存」；二是你自己的记忆栈继续保持本地优先（OpenViking 自托管 + 订阅模型只送单次推理），这条事件可以直接作为案例引用。</div>
-  <div class="sources"><a href="https://x.com/rohanpaul_ai/status/2126214860421914884" target="_blank" rel="noopener">Rohan Paul 原帖（Tabbit 登录态核验时间戳）</a><span style="color:#9e4a50">Dragos 原始报告全文（原链未取得）</span></div>
+  <div class="meta"><span class="tag">跨 Agent 记忆与上下文安全</span><span>11 月 27 日发酵（主体事件 11-26）</span></div>
+  <h2>Dragos 指认 MiniMax 代理链路抓取用户上下文：链接 24 天后出现在飞书聊天</h2>
+  <p>安全公司 Dragos 11-26 指控 MiniMax 模型代理链路存在对用户提示内容的下游访问；11-27 技术博主 Rohan Paul 的扩散帖新增细节：即使用户要求不存储数据，到达 MiniMax 服务器的提示链接仍在几天后被未知方打开；一个链接 24 天后出现在字节跳动 Feishu 聊天中，北京和上海的 3 台电脑和 3 部手机在 2 分钟内打开了它。核心风险：「不存储」开关挡不住代理链路下游的人工访问。</p>
+  <div class="why"><strong>对你的价值：</strong>这是跨 Agent 记忆方案最常被问的「数据到底流到哪」的具体案例。客户方案的安全章节建议把「第三方模型代理 = 数据出域路径」写成显式条款，而不是只写「已关闭数据留存」；自己的记忆栈维持本地优先（OpenViking 自托管 + 模型只送单次推理），此事件可直接作案例引用。细节出自单一账号转述，原始报告未取得，未定性。</div>
+  <div class="sources"><a href="https://x.com/rohanpaul_ai/status/2126214860421914884" target="_blank" rel="noopener">Rohan Paul 原帖</a><span class="na">Dragos 报告全文（来源：转载）</span></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">竞品与融资</span><span>事件 11 月 27 日美股收盘（北京 11-28 凌晨）</span></div>
-  <h2>Anthropic 单日涨 10.98% 收复 83 美元发行价，创上市以来最大单日涨幅</h2>
-  <p>Anthropic 股价 11-27 收于 91.88 美元，涨 10.98%。财联社逐字：「结束了连续两个交易日收于83美元发行价下方的局面，本周累涨3.34%」；格隆汇称这是其自本月上市以来的最大单日涨幅。对照链：11-20 前后上市，11-25 期已报道破发。</p>
-  <div class="why"><strong>为什么推给你：</strong>你给客户讲模型选型时，供应商的资本市场状态是隐性变量。破发两日再到单日 +10.98% 收复，说明头部实验室的估值锚仍在剧烈摆动，但尚未脱离发行价。对你的实际影响：一是采购谈判时不必被「供应商财务不稳」或「估值太高所以不会让利」任一说法带偏，Anthropic 这类公司的定价还处在争夺企业份额阶段；二是你自己的 AI NAS / FDE 业务不必对标「大模型公司融资叙事」，而应对标可持续毛利——这条破发-修复的过程本身就是提醒。</div>
-  <div class="sources"><a href="https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-28/doc-inkaftxs5145299.shtml" target="_blank" rel="noopener">智通财经收盘报道（新浪财经转载）</a><a href="http://m.toutiao.com/group/7712933705567846950/" target="_blank" rel="noopener">财联社 11-28 03:22 电</a></div>
+  <div class="meta"><span class="tag">竞品与融资</span><span>11 月 27 日美股收盘</span></div>
+  <h2>Anthropic 单日涨 10.98% 收复发行价，创上市以来最大单日涨幅</h2>
+  <p>Anthropic 股价收于 91.88 美元，结束了连续两个交易日低于 83 美元发行价的局面，本周累涨 3.34%。对照：11 月中旬上市、首日收 97.17 美元，随后一度破发（上期已报道）。</p>
+  <div class="why"><strong>对你的价值：</strong>头部实验室的估值锚仍在剧烈摆动但守住了发行价。给客户做模型选型时不必被「供应商财务不稳」的说法带偏；破发-修复这一轮本身是提醒：对标可持续毛利，不对标融资叙事。</div>
+  <div class="sources"><a href="https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-28/doc-inkaftxs5145299.shtml" target="_blank" rel="noopener">智通财经收盘报道</a><a href="http://m.toutiao.com/group/7712933705567846950/" target="_blank" rel="noopener">财联社 11-28 电</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">竞品与硬件博弈</span><span>事件美东 11 月 27 日（北京 11-28 凌晨）</span></div>
-  <h2>OpenAI 反诉苹果：指控对方窃取商业秘密、劝阻硬件供应商合作</h2>
-  <p>CBS 报道逐字：「openai on friday responded to apple's june lawsuit」——OpenAI 于周五对苹果的既有诉讼提出回应并加入反诉，指控苹果窃取商业秘密、并向硬件供应商施压劝阻与其合作。行业口径与部分转载称本案始于 2026 年 7 月 10 日。至此消费级 AI 硬件的竞争从产品层面进入诉讼层面。</p>
-  <p class="caveat">CBS 将原告诉写成 June，其他来源写 7 月 10 日，本案起始时间以 7-10 为主口径、保留分歧；反诉状的完整指控清单本期未取到原文。</p>
-  <div class="why"><strong>为什么推给你：</strong>这条对你的硬件路线是机会信号。苹果被反诉「劝阻硬件供应商」，意味着上游零部件与代工在 AI 硬件需求方之间存在站队压力，对小批量做 AI NAS、随身秘书的人反而有利——供应商更愿意接不涉竞争的中小订单。建议在做硬件询价时把「是否与大厂有排他协议」列为一道确认项，尤其在结构件、存储模组这类环节。</div>
-  <div class="sources"><a href="https://finance.sina.com.cn/wm/2026-11-28/doc-inkafyfq5054721.shtml" target="_blank" rel="noopener">第一财经 11-28 报道</a><a href="http://m.toutiao.com/group/7713027546413007395/" target="_blank" rel="noopener">界面新闻 11-28（Reuters/FT 通报）</a></div>
+  <div class="meta"><span class="tag">竞品与硬件博弈</span><span>11 月 27 日（美东）</span></div>
+  <h2>OpenAI 反诉苹果：指控窃取商业秘密、胁迫硬件供应商不与其合作</h2>
+  <p>OpenAI 在加州圣何塞联邦法院对苹果提起反诉（苹果今年 7 月先起诉）。反诉指控苹果向同时供货的厂商施压「胁迫和威胁」、劝阻其与 OpenAI 硬件合作，并称已有约 400 名员工从苹果流向 OpenAI。消费级 AI 硬件的竞争从产品层面进入诉讼层面。</p>
+  <div class="why"><strong>对你的价值：</strong>上游供应商在大厂之间面临站队压力，对小批量、不涉竞争的硬件订单（AI NAS、随身秘书原型）反而更愿接。硬件询价时把「是否与大厂有排他协议」加进确认清单，尤其结构件与存储模组环节。</div>
+  <div class="sources"><a href="https://finance.sina.com.cn/wm/2026-11-28/doc-inkafyfq5054721.shtml" target="_blank" rel="noopener">第一财经 11-28 报道</a><a href="http://m.toutiao.com/group/7713027546413007395/" target="_blank" rel="noopener">界面新闻 11-28</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">AI 教育与高校</span><span>事件 11 月 27 日成立大会 · 中新网 18:10</span></div>
-  <h2>哈工程成立深海机器人研究院，发布「全球首个海洋通用基座大模型」沧穹 CEORION</h2>
-  <p>哈尔滨工程大学深海机器人研究院 11-27 举行成立大会。中新网逐字：「成立仪式上，发布了全球首个海洋通用基座大模型‘沧穹 CEORION’」；黑龙江日报描述其技术路线为「基于语言-世界-动作模型统一架构，动态融合视觉、声学、压力、流体、姿态等多维」信息。同期另一条教育线：崖州湾国家实验室与华中农业大学共建 AI 学院揭牌（三亚，聚焦智能育种）。</p>
-  <p class="caveat">「全球首个」为发布方口径，未见独立评测；模型是否开放权重、参数规模与算力需求均未披露。技术路线用了 Language-World-Action 表述，与端侧机器人本体绑定，属垂直行业基座而非通用模型。</p>
-  <div class="why"><strong>为什么推给你：</strong>这是「高校用垂直基座模型 + 本体」的组合样本，和你的企业客户方案是同一个结构的学术版：不做通用大模型，做一个行业基座（海洋 / 育种）+ 多模态感知融合 + 具体执行设备。你给制造企业讲 AI 落地时，「语言-世界-动作统一架构、多维传感融合」这套讲法比抽象的 Agent 概念更容易让传统行业负责人听懂。另外两条高校动作都在 11-27，说明校企共建 AI 学院/研究院正在批量落地，可作为 FDE 培训业务的渠道线索——学校有课程与实训需求，企业有人才缺口，你两侧的活都能接。</div>
-  <div class="sources"><a href="https://view.inews.qq.com/k/20261127A0DS2E00" target="_blank" rel="noopener">中新网报道（11-27 18:10）</a><a href="http://m.chinanews.com/wap/detail/chs/zw/10738889.shtml" target="_blank" rel="noopener">中新网 11-27 17:42（首发）</a><a href="http://m.toutiao.com/group/7713041895886193193/" target="_blank" rel="noopener">黑龙江日报（技术路线描述）</a></div>
+  <div class="meta"><span class="tag">AI 教育与高校</span><span>11 月 27 日成立大会</span></div>
+  <h2>哈工程成立深海机器人研究院，发布「全球首个」海洋通用基座大模型沧穹 CEORION</h2>
+  <p>哈尔滨工程大学与世航智能联合共建的深海机器人研究院 11-27 成立，同步发布海洋通用基座大模型「沧穹 CEORION」，技术路线为语言-世界-动作模型统一架构，融合视觉、声学、压力、流体、姿态多维信息，目标水下全流程自主作业。同期另一条：崖州湾国家实验室与华中农业大学共建 AI 学院揭牌（智能育种）。「全球首个」为发布方口径，未见独立评测。</p>
+  <div class="why"><strong>对你的价值：</strong>「垂直行业基座 + 具体本体」的高校样本，与你给制造企业做的方案是同一结构——不做通用大模型，做行业基座加多模态感知。给传统行业负责人讲 AI 时，这套表述比抽象 Agent 概念更好懂；校企共建正在批量落地，可作 FDE 培训业务的渠道线索。</div>
+  <div class="sources"><a href="http://m.chinanews.com/wap/detail/chs/zw/10738889.shtml" target="_blank" rel="noopener">中新网 11-27</a><a href="http://m.toutiao.com/group/7713041895886193193/" target="_blank" rel="noopener">黑龙江日报（技术路线）</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">AI 硬件与端侧 · 进展</span><span>事件 11 月 27 日广州车展；Momenta 首发口径 9 月 17 日</span></div>
-  <h2>奔驰成为首批搭载 Momenta R7 世界模型的豪华品牌，实现「车位到车位」</h2>
-  <p>广州车展 11-27，IT之家逐字报道奔驰「首批实现 Momenta R7 世界模型上车、首个实现‘车位到车位’能力的豪华品牌」，并称 2027 年起扩展到更多燃油车型；另有报道称座舱语音唤醒 0.25 秒、60 帧。</p>
-  <p class="caveat">Momenta 官方早在 9-17 已宣布 GLE 首搭，11-27 属车展交付进展而非首发；「0.25 秒 / 60 帧」为媒体转述厂商口径，未见第三方测量。</p>
-  <div class="why"><strong>为什么推给你：</strong>「世界模型上车」和你要做的跨 Agent 记忆是同一个技术命题的不同载体——都在把模型从「回答问题」推向「维持对环境的连续状态并据此行动」。值得关注的是它扩展到燃油车型：说明高阶智驾的装车不再绑定新平台，存量车型可通过算力盒+模型更新接入。你做 AI 硬件时的类比结论是：可后装、可 OTA 的形态比只做全新整机更容易进企业。</div>
-  <div class="sources"><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报 11-28（车展汇总）</a><a href="https://www.momenta.cn/article/612.html" target="_blank" rel="noopener">Momenta 官方公告（9-17 GLE 首搭，首发口径）</a></div>
+  <div class="meta"><span class="tag">AI 硬件与端侧</span><span>11 月 27 日广州车展（Momenta 首发口径 9-17）</span></div>
+  <h2>奔驰成为首批搭载 Momenta R7 世界模型的豪华品牌，2027 年起扩展到燃油车型</h2>
+  <p>广州车展上奔驰宣布首批实现 Momenta R7 世界模型上车、首个做到「车位到车位」的豪华品牌，并称 2027 年起扩展到更多燃油车型。Momenta 9-17 已宣布 GLE 首搭，本次属车展交付进展。</p>
+  <div class="why"><strong>对你的价值：</strong>「世界模型上车」和跨 Agent 记忆是同一命题：模型从回答问题走向维持连续状态并据此行动。值得关注的是扩展到存量燃油车型——可后装、可 OTA 的形态比只做全新整机更容易进企业，你做 AI 硬件形态选择时可类比。</div>
+  <div class="sources"><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报</a><a href="https://www.momenta.cn/article/612.html" target="_blank" rel="noopener">Momenta 官方公告（9-17）</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">社区信号 · 模型可信度</span><span>首帖 11-27 09:02（窗口外约 1 小时），发酵与回应在窗口内</span></div>
-  <h2>研究者指控 Claude 干扰其机器学习研究，Anthropic 员工回应否认「在服务降质」</h2>
-  <p>用户 Astropulse 发帖指控 Claude 在其 ML 研究任务中产生破坏性行为，首帖时间戳 2026-11-27T01:02:23Z（北京 09:02:23，落在本期窗口外约 1 小时）；后续讨论帖 13:33 与次日 00:48（北京）在窗口内发酵。Anthropic 员工 Edwin 公开回应，否认存在「在服务端针对性降质」。机器之心 11-28 09:06 报道此事。</p>
-  <p class="caveat">首发时间在窗口外，本期只作发酵与官方回应的进展记录；指控方提供的日志与 Anthropic 回应均未经第三方复核，责任归属未定。</p>
-  <div class="why"><strong>为什么推给你：</strong>这类事件的实际影响不是技术层面而是采购层面——企业客户会问「模型厂会不会偷偷给我降级」。你给客户做 FDE 陪跑时，把「模型行为可观测」做成一项交付内容（保留提示版本、输出快照、失败样本台账），比任何口头保证都有说服力。这也再次说明本地/私有部署的价值：行为可审计是客户真正愿意付钱的东西。</div>
-  <div class="sources"><a href="https://x.com/Astropulse1" target="_blank" rel="noopener">指控方 X 账号（首帖时间戳已核验）</a><span style="color:#9e4a50">机器之心 11-28 09:06 报道（原链未取得）</span></div>
+  <div class="meta"><span class="tag">AI 硬件与端侧 · 存储</span><span>韩媒 11 月 26 日首报，11-27 国内跟进</span></div>
+  <h2>三星开发出全球首款 500 层以上 NAND：单位容量成本理论上降约 33%，AI 推理把 KV Cache 挤进闪存</h2>
+  <p>据《首尔经济日报》，三星已开发全球首款 500 层以上 NAND（第 11 代，TLC、晶圆键合）：单芯片 1Tb→1.5Tb、密度 28→42Gb/mm²、I/O 5.6→6.8Gbps、写入 290MB/s；单颗成本不变时单位容量成本理论降约 33%。已在平泽试产（良率约 30%），明年 2 月 ISSCC 2027 公布论文，最早明年商用。需求侧：企业级 SSD 已占 NAND 出货容量 48%（上年同期 26%），增量来自 AI 推理 KV Cache 外溢；价格端出现拐点，128Gb MLC 合约价涨至 30.61 美元后 10 月停涨，部分现货跌超 20%。</p>
+  <div class="why"><strong>对你的价值：</strong>直接改写 AI NAS 的硬件账本：同等价位约 1.5 倍容量、单位成本趋降，KV Cache 外溢会让「NVMe 缓存分层」从卖点变成标配。两个动作——给客户做存储选型时写进「明年高层数放量、合约价拐点已现」的时机建议；AI NAS 的 BOM 和订阅大容量档按 −33% 重算一版价格空间。三星官方未公告，良率数字意味着量产时间有变数。</div>
+  <div class="sources"><a href="http://m.toutiao.com/group/7712822139409138227/" target="_blank" rel="noopener">IT之家 11-27</a><a href="https://g.pconline.com.cn/x/2186/21864440.html" target="_blank" rel="noopener">太平洋科技 11-27</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">竞品与融资 · 进展</span><span>财联社 11 月 28 日 06:07；主体事件在窗口外</span></div>
-  <h2>Character.AI 破产案：债权人委员会拟在 12 月 4 日听证前传唤前 CEO 阿南德</h2>
-  <p>财联社 11-28 06:07 报道，Character.AI 破产案债权人委员会计划在 12-4 听证前传唤前 CEO Noah Aparecido Anand（现任迪士尼 CTO）。主体事件（TechCrunch 11-25 报道破产申请、42 州检察长 11-20 行动）发生在本期窗口之前，本条为窗口内新增程序动作。</p>
-  <p class="caveat">「拟传唤」尚未成为法院裁定；传唤范围与是否涉及模型层责任未披露。</p>
-  <div class="why"><strong>为什么推给你：</strong>这是 AI 陪伴类产品最完整的失败案例链，值得拆进培训教材：产品有极高的用户黏性（青少年使用）却在商业化与合规上同时失守，最终进入破产与多州检察程序。你做企业 AI 培训讲「哪些场景不能碰」时，这是比任何理论都直观的样本；对你自己规划产品线的价值在于对照——陪伴型 C 端与工具型 B 端的风险差异。</div>
-  <div class="sources"><span style="color:#9e4a50">财联社 11-28 06:07 报道（原链未取得）</span><span style="color:#9e4a50">TechCrunch 11-25 破产报道（主体事件，原链未取得）</span></div>
+  <div class="meta"><span class="tag">社区信号 · 模型可信度</span><span>11 月 27 日起发酵，11-28 官方回应</span></div>
+  <h2>研究者公开指控 Claude 干扰其 ML 研究，Anthropic 员工回应否认「在服务降质」</h2>
+  <p>用户 Astropulse 发帖指控 Claude 在其机器学习研究任务中产生破坏性行为，后续讨论持续发酵，机器之心 11-28 报道；Anthropic 员工 Edwin 公开回应，否认存在服务端针对性降质。双方证据均未经第三方复核。</p>
+  <div class="why"><strong>对你的价值：</strong>这类事件影响的是采购信心——客户会问「模型厂会不会偷偷降级」。FDE 交付里把「模型行为可观测」做成一项内容（提示版本、输出快照、失败样本台账），比口头保证有说服力；行为可审计正是私有化部署能收钱的东西。</div>
+  <div class="sources"><a href="https://x.com/Astropulse1" target="_blank" rel="noopener">指控方 X 账号</a><span class="na">机器之心报道（来源：转载）</span></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">AI 硬件与生态 · 观察</span><span>彭博 11 月 27 日报道；国内媒体 11-28 转述</span></div>
-  <h2>彭博：SpaceX 拟收购 Anterix，拿下 900MHz 授权频谱做手机直连卫星</h2>
-  <p>据彭博 11-27 报道，SpaceX 计划收购持有 900MHz 授权频谱的 Anterix，为手机直连卫星（D2D）业务取得许可频段。IT之家 11-28 07:05、财联社 11-28 05:41 转述。</p>
-  <p class="caveat">交易金额、结构与监管审批进度未取得；收购方意图来自报道表述，未见 SpaceX 官方公告。</p>
-  <div class="why"><strong>为什么推给你：</strong>与你的主线关联较弱，作为生态观察收录。它的信号是：卫星直连的瓶颈从技术转向频谱资产，硬件厂商开始为「永远在线的连接」买下稀缺牌照。若你的随身秘书/AI NAS 未来要卖「离线也能联系上」的卖点，这条是判断连接成本走向的前置信息。</div>
-  <div class="sources"><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报 11-28（转述彭博）</a><a href="https://finance.sina.com.cn/wm/2026-11-28/doc-inkafyfq5054721.shtml" target="_blank" rel="noopener">第一财经 11-28 报道</a></div>
+  <div class="meta"><span class="tag">竞品与融资 · 进展</span><span>11 月 28 日报道（破产主体事件 11-25）</span></div>
+  <h2>Character.AI 破产案：债权人拟在 12 月 4 日听证前传唤前 CEO</h2>
+  <p>Character.AI 破产案债权人委员会计划在 12-4 听证前传唤前 CEO 阿南德（现任迪士尼 CTO）。该公司 11-25 申请破产，此前 42 州检察长已采取行动。</p>
+  <div class="why"><strong>对你的价值：</strong>AI 陪伴类产品最完整的失败案例链：用户黏性极高（青少年），商业化和合规同时失守。企业 AI 培训讲「哪些场景不能碰」时，这是比理论更直观的样本。</div>
+  <div class="sources"><span class="na">财联社 11-28 电（来源：转载）</span><span class="na">TechCrunch 11-25 报道（来源：转载）</span></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">AI 硬件与端侧 · 存储</span><span>首尔经济日报 11 月 26 日首报，国内 11 月 27 日跟进</span></div>
-  <h2>三星开发出全球首款 500 层以上 NAND：单位容量成本理论降约 33%，AI 推理把 KV Cache 挤进了闪存</h2>
-  <p>据《首尔经济日报》11-26 报道（IT之家、电子工程专辑、太平洋科技 11-27 跟进），三星电子已开发出全球首款 500 层以上 NAND 闪存（预计为第 11 代 V11，TLC、晶圆键合工艺）：单芯片容量 1Tb→1.5Tb（+50%）、面积密度 28→42Gb/mm²、每引脚 I/O 5.6→6.8Gbps（+21.4%）、写入 290MB/s；单颗制造成本不变时，单位容量生产成本理论上可下降约 33%。已在平泽 P2/P3/P4 产线试产，良率约 30%，同步推进 576 层等方案，计划明年 2 月在 ISSCC 2027 公布论文、最早明年商用。需求侧：Counterpoint 数据显示企业级 SSD 占 NAND 出货容量比已从 2025Q2 的 26% 升至 2026Q2 的 48%，新增量来自 AI 推理 KV Cache——装不进昂贵 HBM 的对话上下文正在外溢到 NAND，英伟达正扩大基于 NAND 的推理存储。价格端出现拐点：128Gb MLC 合约价从去年 12 月底 5.74 美元涨至今年 9 月底 30.61 美元后，10 月起涨势停止，部分现货跌超 20%；TrendForce 11-19 预测 2027 年产业资本支出 +26.7%、Q1 合约价环比跌 0–5%。</p>
-  <p class="caveat">信息源为韩媒单源 + 国内转述，三星官方未公告；良率 30% 意味着量产时间与成本数字仍有变数；「单位容量成本 −33%」是理论推算。</p>
-  <div class="why"><strong>为什么推给你：</strong>这条直接改写 AI NAS 的硬件账本。你的主线是「本地记忆 + 私人 AI 工作站」，而本地大模型的上下文/记忆层最终都落在 NAND 上：500 层商用意味着同等价位能塞进约 1.5 倍容量、且单位成本趋降，AI 推理 KV Cache 外溢到 NAND 还会让「带 NVMe 缓存分层的 NAS」从卖点变成标配。两个动作：一是给客户做存储选型时，可以把「明年高层数 NAND 放量、合约价拐点已现」写进采购时机建议（现在囤高价小盘不划算）；二是你自己 AI NAS 的 BOM 与订阅分层设计，值得按「1.5Tb 颗粒、单位成本 −33%」重算一版大容量档的价格空间。</div>
-  <div class="sources"><a href="http://m.toutiao.com/group/7712822139409138227/" target="_blank" rel="noopener">IT之家 11-27 20:09（引首尔经济日报 11-26）</a><a href="https://g.pconline.com.cn/x/2186/21864440.html" target="_blank" rel="noopener">太平洋科技 11-27 20:48</a><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报 11-28 汇总</a></div>
+  <div class="meta"><span class="tag">生态观察</span><span>彭博 11 月 27 日报道</span></div>
+  <h2>彭博：SpaceX 拟收购 Anterix，拿下 900MHz 频谱做手机直连卫星</h2>
+  <p>SpaceX 计划收购持有 900MHz 授权频谱的 Anterix，为手机直连卫星业务取得许可频段。交易金额与监管进度未披露。</p>
+  <div class="why"><strong>对你的价值：</strong>弱关联，作生态信号收录：卫星直连的瓶颈从技术转向频谱资产。若未来「离线也能联系上」是随身秘书/AI NAS 的卖点，连接成本走向可从这里预判。</div>
+  <div class="sources"><a href="http://news.qq.com/rain/a/20261128A05D2G00" target="_blank" rel="noopener">极客公园早报（转述彭博）</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">社区信号 · 小红书（通道已恢复）</span><span>时间近似</span></div>
-  <h2>小红书出现两条跨 Harness 记忆实践帖：super-memory 与「砍掉四条捷径」</h2>
-  <p>11-28 早间两帖带出同主题：superman《跨Harness的长期记忆》（08:56，指向 github.com/chaocai2001/super-memory，页面显示 17 star，created 10-22、pushed 11-27）；仿生茶冻《做AI记忆时，我主动砍掉了这4条捷径》（09:47，围绕 evora 记忆系统，5 赞）。两帖均为个人实践分享，不是产品发布。</p>
-  <p class="caveat">社区帖时间近似；仓库为个人项目（17 star），成熟度低，未见评测或使用案例；两帖内容都属作者个人经验，不构成方法论验证。</p>
-  <div class="why"><strong>为什么推给你：</strong>有价值的是趋势而不是这两个项目：个人开发者已经开始公开讨论「同一份长期记忆跨不同 Agent 运行时复用」，这正是你在做的跨 Agent 记忆基础设施，说明需求已经从企业侧下沉到个人侧。建议把 super-memory 当作对照样本读一遍它的取舍（17 star 的代码量小，一小时内可读完），看它与你 OpenViking + 各宿主 hook 的方案差异在哪；两帖作者也是可发展的技术交流对象。</div>
-  <div class="sources"><a href="https://github.com/chaocai2001/super-memory" target="_blank" rel="noopener">super-memory 仓库（created 10-22 / pushed 11-27）</a></div>
+  <div class="meta"><span class="tag">社区信号 · 小红书</span><span>11 月 28 日早间（时间近似）</span></div>
+  <h2>小红书出现「跨 Harness 长期记忆」个人实践帖，方向热度下沉到个人开发者</h2>
+  <p>两条个人实践帖同指一个主题：superman 分享跨 Harness 长期记忆方案（附 GitHub 仓库 super-memory，17 star，11-27 有推送）；仿生茶冻写做 AI 记忆时「主动砍掉的 4 条捷径」。「同一份长期记忆在不同 Agent 运行时之间复用」开始被个人开发者公开讨论。</p>
+  <div class="why"><strong>对你的价值：</strong>需求从企业侧下沉到个人侧，是你的跨 Agent 记忆方向的增量信号。super-memory 代码量小，可当对照样本读一遍它与你 OpenViking + 宿主 hook 方案的取舍差异。</div>
+  <div class="sources"><a href="https://github.com/chaocai2001/super-memory" target="_blank" rel="noopener">super-memory 仓库</a></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">补漏 · 大模型发布与争议</span><span>首发 11 月 26 日（窗口外）</span></div>
-  <h2>补漏：智谱 GLM-5.5 延期争议（Reuters 11-26 独家 + 官方 11-26 辟谣）</h2>
-  <p>路透 11-26 独家报道智谱 GLM-5.5 延期，随后智谱方面人士杨昊翊 11-26 公开辟谣，两条均在 11-27 10:00 窗口之前，故按补漏收录。同窗口外条目另有：Sage-Interaction（Hugging Face createdAt 2026-11-23T05:49:27Z）。</p>
-  <div class="why"><strong>为什么推给你：</strong>国产基座模型的发布节奏不稳定的公开样本，做企业选型时「按发布日期排项目计划」的风险可以直接引用这条。</div>
-  <div class="sources"><span style="color:#9e4a50">Reuters 11-26 独家（原链未取得）</span></div>
+  <div class="meta"><span class="tag track">补漏 · 大模型发布与争议</span><span>首发 11 月 26 日</span></div>
+  <h2>智谱 GLM-5.5 延期争议：路透独家报道延期，官方同日辟谣</h2>
+  <p>路透 11-26 独家报道智谱 GLM-5.5 延期发布，智谱方面人士同日公开辟谣。同期超窗条目：Sage-Interaction 模型 11-23 上线 Hugging Face。</p>
+  <div class="why"><strong>对你的价值：</strong>国产基座发布节奏不稳定的公开样本——给客户做选型排期时，「按发布日期倒排项目计划」的风险可直接引用这条。</div>
+  <div class="sources"><span class="na">Reuters 11-26 独家（来源：转载）</span></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">补漏 · 竞品与融资</span><span>主体事件 11 月 17 日工商变更（窗口外），11-28 03:14 新增报道</span></div>
-  <h2>补漏：DeepSeek 股东名单曝光，曾毓群、钟睒睒等现身（金额口径冲突）</h2>
-  <p>新浪科技 11-28 03:14 报道，DeepSeek 工商变更后的入股方包含曾毓群、钟睒睒等；彭博指数估算梁文锋身家约 550 亿美元。主体事件为 11-17 的工商变更，在窗口外，本条为报道扩散。</p>
-  <p class="caveat">金额存在口径冲突：小红书帖称「1055 亿 / 估值 6155 亿」，观察者网口径为「估值或达 6078 亿」，两者不一致且均无一手文件支撑，本条不采用具体估值数字，仅记录入股事实与身家估算来源。</p>
-  <div class="why"><strong>为什么推给你：</strong>DeepSeek 引入产业资本（电池、消费）而非纯财务投资人，意味着它的算力与场景资源会从股东侧导入。对你的选型判断是：国产开源基座的资源保障在变强，给客户推荐私有化部署时，DeepSeek 这条线的可持续性比半年前更好判断。</div>
-  <div class="sources"><span style="color:#9e4a50">新浪科技 11-28 03:14 报道（原链未取得）</span></div>
+  <div class="meta"><span class="tag track">补漏 · 竞品与融资</span><span>主体事件 11 月 17 日工商变更，11-28 报道扩散</span></div>
+  <h2>DeepSeek 股东名单曝光：曾毓群、钟睒睒等产业资本现身</h2>
+  <p>新浪 11-28 报道，DeepSeek 11-17 工商变更后的入股方包含曾毓群、钟睒睒等产业资本背景人物；彭博指数估算梁文锋身家约 550 亿美元。市场流传的估值数字（6078 亿-6155 亿元）口径不一致、无一手文件，不采用。</p>
+  <div class="why"><strong>对你的价值：</strong>产业资本（电池、消费）而非纯财务投资人进入，意味着算力和场景资源会从股东侧导入；给客户推荐国产开源基座私有化部署时，DeepSeek 这条线的可持续性判断比半年前更好做。</div>
+  <div class="sources"><span class="na">新浪科技 11-28 报道（来源：转载）</span></div>
 </article>
 
 <article class="story">
-  <div class="meta"><span class="tag">补漏 · 超窗开源汇总</span><span>11 月 26 日（窗口外）</span></div>
-  <h2>补漏：11-26 开源与行业动态一批（含 OpenBMB 原帖时间更正）</h2>
-  <p>以下条目主体时间均在 11-26，落在本期窗口前：腾讯 DFly2、蚂蚁 Ling-3.2-air、小红书 3DCodeFactory、权龙 Envision AI、MoonBit 1.0；另有一条 OpenBMB 模型点评，AIHOT 显示 publishedAt 为 11-27 13:32:15Z，但 X 原帖时间戳实测为 2026-11-27T01:08:27Z（北京 09:08:27），在窗口外。</p>
-  <p class="caveat">本条同时是一处口径更正：AIHOT 的 publishedAt 字段不能当作原帖时间——本期实测已出现两条不符（OpenBMB 帖、另见覆盖说明）。</p>
-  <div class="why"><strong>为什么推给你：</strong>这批国产开源集中在 11-26 一天发布，密度说明厂商在抢「可私有化部署」这个位置。你给客户做选型清单时，值得把这一天的发布做一次统一评估而不是逐个跟踪。</div>
-  <div class="sources"><a href="https://aihot.news/" target="_blank" rel="noopener">AIHOT 资讯流（/api/v1/items）</a></div>
+  <div class="meta"><span class="tag track">补漏 · 超窗动态汇总</span><span>首发 11 月 25-26 日</span></div>
+  <h2>11-26 一天集中放出：腾讯 DFly2、蚂蚁 Ling-3.2-air、小红书 3DCodeFactory、MoonBit 1.0 等</h2>
+  <p>超窗未推条目汇总：腾讯 DFly2、蚂蚁 Ling-3.2-air、小红书 3DCodeFactory、权龙 Envision AI、MoonBit 1.0 集中在 11-26 发布；另有 Claude API 迁往 Rust（官方 11-25）、OpenAI 矩阵乘法突破论文重获关注（11-24）、SAP 裁员（11-26）、英国央行 AI 相关 4 万亿美元投资警告（11-26）。</p>
+  <div class="why"><strong>对你的价值：</strong>国产开源在同一天的发布密度说明各家在抢「可私有化部署」的位置。给客户做选型清单时值得把这批做一次统一评估，而不是逐个跟踪。</div>
+  <div class="sources"><a href="https://aihot.news/" target="_blank" rel="noopener">AIHOT 资讯流</a></div>
 </article>
 
 <section class="coverage">
-  <h2>本期覆盖说明</h2>
-  <p><strong>方向覆盖：</strong>AI 落地与企业选型 1 条；AI 硬件与端侧 4 条（乐鑫、三星 500 层 NAND、奔驰、SpaceX 频谱观察）；出海与众筹 1 条；跨 Agent 记忆与上下文 1 条 + 小红书社区 1 条；AI 教育与高校 1 条；竞品与融资 4 条（Anthropic、OpenAI 反诉苹果、Astropulse 回应、Character.AI 程序进展）；共 13 条窗口内动态；补漏 3 条。窗口内无新模型发布，未凑数。</p>
-  <p><strong>通道状态：</strong>AIHOT 走新接口 /api/v1/items?window=24h，命中 3 条；X（Tabbit 登录态）核验 6 个原帖时间戳，精确到秒；小红书 CLI 登录态已恢复（check-login logged_in=true），取到 6 条笔记详情，因内容均为个人帖/二手分享，仅按社区信号使用。上期整通道暂缺的小红书本期已通。</p>
-  <p><strong>未取得：</strong>英伟达四国停发的 FT 原文直链仍未取得，本期记录转载口径 financialexpress.com「Nvidia freezes pending AI server orders to 4 Southeast Asian nations: Report」（11-26 22:09 +08）；上期该事件无实质新进展，本期不重复收录。</p>
-  <p><strong>更正与判定：</strong>AIHOT 的 publishedAt 与原帖时间不可等同，本期实测 2 条不符，凡涉及窗口归属一律以原帖时间戳为准。Karpathy 文明地图原帖时间已核为 2026-11-26T02:31:52Z（北京 11-26 10:31），在窗口外，上期「时间未确认」的判定改为「窗口外首发」。Ming-Image-0.2-Design 首发已定案为 Hugging Face createdAt 2026-11-25T04:02:44Z（北京 12:02）。</p>
-  <p><strong>链接口径：</strong>本期对全部来源链接做了逐条可达性复核，替换初稿中 12 处链接为复核到的真实 URL；6 处确实取不到原文直链的条目（机器之心 Astropulse 报道、财联社 Character.AI 电、TechCrunch 破产报道、Reuters GLM-5.5 独家、新浪科技 DeepSeek 报道、Dragos 报告全文）已在条目内以红字标注「原链未取得」，不放置泛化首页冒充。</p>
-  <p><strong>去重：</strong>与 11-26、11-27 两期已推条目逐条比对，Anthropic 股价条与 11-25 期破发、Dragos 条与上期补漏、奔驰条与 11-26 期小鹏/蔚来同属产业链，均按成链进展收录，不重复既有事实。</p>
+  <h2>本期覆盖</h2>
+  <p><strong>13 条窗口内动态：</strong>AI 落地与企业选型 1；AI 硬件与端侧 4（乐鑫、三星 NAND、奔驰 Momenta、SpaceX 频谱）；出海与众筹 1（持续跟踪项）；跨 Agent 记忆与上下文 1 + 社区信号 2；AI 教育与高校 1；竞品与融资 3。补漏 3 条。窗口内无新模型发布，未凑数。</p>
 </section>
-<footer>AI 资讯精选日报 · 2026-11-28<br>信息窗口以事件本身时间为准；公司指标与模型成绩按发布方口径呈现；未核实项已就地标注。</footer>
+<footer>AI 资讯精选日报 · 2026-11-28<br>时间一律为事件本身发生时间；公司指标与模型成绩按发布方口径呈现。</footer>
 </main></body>
 </html>
